@@ -1683,8 +1683,10 @@ nav.navbar.affix {
   text-align: center;
 }
 #services h2 {
-  margin-bottom: 40px !important;
+  margin-bottom: 20px !important;
+   margin-top: 20px !important;	
 }
+
 @media (max-width: 991px) {
   #services {
     padding-bottom: 20px;
@@ -1695,8 +1697,14 @@ nav.navbar.affix {
   line-height: 70px;
 }
 #services p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6em;
+}
+
+.services-abt {
+  font-size: 20px;
+  line-height: 1.6em;
+text-align: justify;
 }
 @media (max-width: 991px) {
   #services p {
