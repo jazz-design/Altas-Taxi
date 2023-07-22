@@ -507,7 +507,7 @@ h1,
   }
 }
 h2 {
-  margin: 60px 0 20px;
+  margin: 20px 0 20px;
   font-size: 36px;
 }
 h2.spanned {
@@ -521,16 +521,16 @@ h2.spanned span {
   vertical-align: middle;
 }
 h3 {
-  margin: 60px 0 20px;
+  margin: 20px 0 20px;
   font-size: 30px;
 }
 h4 {
-  margin: 60px 0 20px;
+  margin: 20px 0 20px;
   font-size: 24px;
 }
 h5,
 h6 {
-  margin: 60px 0 20px;
+  margin: 20px 0 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -550,6 +550,14 @@ section {
     width: 60%;
     margin-bottom: 70px;
   }
+}
+
+.servtext
+{
+font-size: 40px;
+font-weight: 700;	
+color: #000;
+	
 }
 /*
 	3. Header, navigation bar and menu
@@ -1706,6 +1714,12 @@ nav.navbar.affix {
   line-height: 1.6em;
 text-align: justify;
 }
+
+.text-just {
+  font-size: 16px;
+  line-height: 1.6em;
+text-align: justify;
+}
 @media (max-width: 991px) {
   #services p {
     margin-bottom: 60px;
@@ -1732,8 +1746,8 @@ text-align: justify;
 	6. Tariffs Block
 */
 #tariffs {
-  padding: 16px 0 100px;
-  background-color: #F5F5F5;
+  padding: 0 0 50px;
+  background-color: #fff;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
@@ -1755,14 +1769,14 @@ text-align: justify;
 }
 #tariffs .item {
   background: #fff;
-  text-align: center;
-  padding: 10px 30px 20px;
+  
+  padding: 30px 30px 30px;
   font-size: 14px;
   -webkit-border-radius: 4px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 4px;
   -moz-background-clip: padding;
-  border-radius: 4px;
+  border-radius: 8px;
   background-clip: padding-box;
   position: relative;
   transition: all .3s ease;
@@ -4165,4 +4179,12 @@ img.aligncenter {
   right: 0;
   bottom: 0;
   z-index: 1;
+}
+
+.tblhead
+{
+	background-color: #FFC61A;
+	color: #000;
+	height:50px;
+	
 }
