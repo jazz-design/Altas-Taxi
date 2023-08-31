@@ -1750,7 +1750,7 @@ text-align: justify;
   padding: 0 0 10px;
   background-color: #fff;
   background-position: 50% 50%;
-  background-repeat: no-repeat;
+  background-repeat:repeat;
 }
 #tariffs h2,
 #tariffs h4 {
